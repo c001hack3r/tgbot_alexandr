@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+media/
+config.py
+test.py
+vps.txt
