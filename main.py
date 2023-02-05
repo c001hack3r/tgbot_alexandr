@@ -10,12 +10,12 @@ dp = Dispatcher(bot)
     #Ответ на кнопку СТАРТ
 @dp.message_handler(commands=['start', 'help'])
 async def start_msg(message: types.Message):
-    await message.answer(dn.start_msg, parse_mode='markdown', reply_markup=kb.main_menu)
     await bot.send_message('720076833', f'⚡️Новая активность:\n\
 Time: {message.date}\n\
 User id: {message.from_user.id}\n\
 Name: {message.from_user.first_name} {message.from_user.last_name}\n\
 Username: @{message.from_user.username}')
+    await message.answer(dn.start_msg, parse_mode='markdown', reply_markup=kb.main_menu)
 
     #Ответ на кнопку Обо мне
 @dp.callback_query_handler(text='about_me')
