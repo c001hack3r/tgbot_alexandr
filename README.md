@@ -1,9 +1,4 @@
 # tgbot_alexandr
 
-Телеграм бот для персонального фитнесс-тренера(<https://t.me/Alexandr01_87Bot>)
-
-Написан на python с использованием библиотеки aiogram. Задеплоен на VDS сервер за 54руб/мес
-
-В репозитории отсутствует файл config.py с токеном для бота
-
-Осталось добавить логер и прикрутить вебхук
+The telegram BOT for personal fitness trainer Alexandr Kornienko on python with aiogram lib
+(<https://t.me/Alexandr01_87Bot>)
